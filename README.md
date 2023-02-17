@@ -6,8 +6,8 @@ Oracle Database Observability
 The following metrics are exposed currently.
 
 ```bash 
-OracleDbUp - The metric equals 1 if the exporter can connect to the database otherwise it displays this: <1	ORACLE_FAST & ORACLE_NORMAL & ORACLE_SLOW
-OracleInstUp - This metric equals 1 if the exporter instance is up, otherwise, it displays this: <1	ORACLE_FAST & ORACLE_NORMAL & ORACLE_SLOW
+OracleDbUp - The metric equals 1 if the exporter can connect to the database otherwise it displays this: < 1	ORACLE_FAST & ORACLE_NORMAL & ORACLE_SLOW
+OracleInstUp - This metric equals 1 if the exporter instance is up, otherwise, it displays this: < 1	ORACLE_FAST & ORACLE_NORMAL & ORACLE_SLOW
 OracleWaitEvents - This metric shows labels for each wait event category and wait time	ORACLE_FAST
 OracleSessLongOps	- This metric shows (in minutes) the sessions in LongOps	ORACLE_NORMAL
 OracleUpTime - This metric determines for how long the session has been up	ORACLE_NORMAL
